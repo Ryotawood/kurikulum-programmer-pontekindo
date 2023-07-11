@@ -47,10 +47,28 @@ var_dump(NULL);
 var_dump(array (1,true, "false",NULL)); // menggunakan fungsi array
 var_dump([2,false,'true',NULL]); // menggunakan kurung siku
 
-// VARIABLE
+// VARIABLE adalah wadah
 $nama = "Faqih";
 $umur = "14";
+$nama = "Kurt";
+$umur = "25";
 
 echo 'Nama saya adalah $nama, Umur saya $umur';
 echo "\n";
-echo "Nama saya adalah $nama, Umuru saya $umur";
+echo "Nama saya adalah $nama, Umur saya $umur";
+
+//Constant / konstanta -> tidak bisa dirubah
+define ("NAMA", "FAQIH"); //-> menggunakan funtion bawaan php define
+const UMUR = 14; // menggunakan const, tidak bisa diubah
+echo "\n";
+echo NAMA . UMUR;
+echo"\n";
+
+$nama = NULL;
+echo $nama;
+var_dump(is_null ($nama));
+//menghapus variable
+unset($nama);
+$nama = "bapakke";
+echo $nama;
+// *var and const is case-sensitive (namanya kudu musti harus sesuai dengan yang dideklarasikan)
