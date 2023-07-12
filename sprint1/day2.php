@@ -107,7 +107,7 @@ echo $angka1;
 // STDIN adalh standar input -> tempat untuk menyimpan data sebelum ditampilkan
 
 echo "-----------Menghitung luas persegi ----------- :";
-echo "Ketikkan sisi persgi :";
+echo "Ketikkan sisi persegi :";
 $sisi = trim (fgets(STDIN));
 $luas = $sisi * $sisi;
 echo "Sisi : $sisi" . PHP_EOL;
