@@ -89,13 +89,9 @@
 $a = 1;
 $b = 1;
 
-$a = $b++;
+$a = -$b--;
 echo $a . PHP_EOL;
 echo $b . PHP_EOL;
-
-
-
-
 
 
 

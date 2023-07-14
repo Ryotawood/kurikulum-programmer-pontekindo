@@ -6,7 +6,6 @@
 // echo "Sisi : $sisi" . PHP_EOL;
 // echo "Luas : sisi * sisi\nLuas : $sisi * $sisi =$luas" . PHP_EOL;
 echo "=== Menghitun bangun tidur===\n";
-echo "Pilih bangun tidur:\n";
 echo "1. Persegi panjang\n";
 echo "2. Segitiga\n";
 echo "3. Lingkaran\n";
