@@ -121,6 +121,31 @@ switch ($barang1){
                                 echo "1.Bayar\n";
                                 echo "Bayar Oyy : ";
                                 $bayar = trim(fgets(STDIN));
+                                    switch ($bayar) {
+                                        case 1 :
+                                            echo "=== Bayar ===\n";
+                                    echo "$total\n";
+                                        switch ($total){
+                                            case $total >= 40000;
+                                            echo "Selamat kamu dapat discount sebesar 2500\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc1;
+                                                echo "$total\n";
+                                                break;
+                                            case $total >= 30000;
+                                            echo "Selamat kamu dapat discount sebesar 1000\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc2;
+                                                echo "$total\n";
+                                                break;
+                                            case $total >= 20000;
+                                            echo "Selamat kamu dapat discount sebesar 500\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc3;
+                                                echo "$total\n";
+                                                break;
+                                            }
+                                    }
                                 break;
                             case 2 :
                                 echo "=== Bayar ===\n";
@@ -273,6 +298,31 @@ switch ($barang1){
                     echo "1.Bayar\n";
                     echo "Pilih Urutan Barang : ";
                     $bayar = trim(fgets(STDIN));
+                        switch ($bayar){
+                            case 1 :
+                                echo "=== Bayar ===\n";
+                                    echo "$total\n";
+                                        switch ($total){
+                                            case $total >= 40000;
+                                            echo "Selamat kamu dapat discount sebesar 2500\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc1;
+                                                echo "$total\n";
+                                                break;
+                                            case $total >= 30000;
+                                            echo "Selamat kamu dapat discount sebesar 1000\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc2;
+                                                echo "$total\n";
+                                                break;
+                                            case $total >= 20000;
+                                            echo "Selamat kamu dapat discount sebesar 500\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc3;
+                                                echo "$total\n";
+                                                break;
+                                            }
+                        }
                     break;
                 case 2 :
                     echo "=== Bayar ===\n";
@@ -356,6 +406,32 @@ switch ($barang1){
                                 echo "1.Bayar\n";
                                 echo "Pilih Urutan Barang : ";
                                 $bayar= trim(fgets(STDIN));
+                                    switch ($bayar) {
+                                        case 1 :
+                                            echo "=== Bayar ===\n";
+                                    echo "$total\n";
+                                        switch ($total){
+                                            case $total >= 40000;
+                                            echo "Selamat kamu dapat discount sebesar 2500\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc1;
+                                                echo "$total\n";
+                                                break;
+                                            case $total >= 30000;
+                                            echo "Selamat kamu dapat discount sebesar 1000\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc2;
+                                                echo "$total\n";
+                                                break;
+                                            case $total >= 20000;
+                                            echo "Selamat kamu dapat discount sebesar 500\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc3;
+                                                echo "$total\n";
+                                                break;
+                                            }
+                                    }
+                                    break;
                             case 2 :
                                 echo "=== Bayar ===\n";
                                     echo "$total\n";
@@ -401,6 +477,32 @@ switch ($barang1){
                                 echo "1.Bayar\n";
                                 echo "Pilih Urutan Barang : ";
                                 $bayar= trim(fgets(STDIN));
+                                    switch ($bayar){
+                                        case 1 :
+                                            echo "=== Bayar ===\n";
+                                    echo "$total\n";
+                                        switch ($total){
+                                            case $total >= 40000;
+                                            echo "Selamat kamu dapat discount sebesar 2500\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc1;
+                                                echo "$total\n";
+                                                break;
+                                            case $total >= 30000;
+                                            echo "Selamat kamu dapat discount sebesar 1000\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc2;
+                                                echo "$total\n";
+                                                break;
+                                            case $total >= 20000;
+                                            echo "Selamat kamu dapat discount sebesar 500\n";
+                                            echo "Jadi Total ny segini ya\n";
+                                                $total -= $disc3;
+                                                echo "$total\n";
+                                                break;
+                                            }
+                                    }
+                                    break;
                             case 2 :
                                     echo "=== Bayar ===\n";
                                     echo "$total\n";

@@ -5,7 +5,7 @@
 // block adalah kumpulan statement yang terdiri dari nol atau lebih statement
 // block : code yang berada di dalam {}
 
-//percabangan -> if else
+//percabangan// -> if else
 
 // echo "---------------------------------";
 // echo "===== Mendata Nilai Santri ======";
