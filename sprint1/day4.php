@@ -110,7 +110,7 @@ switch ($denda) {
         $total = $harga + $biaya_denda;
         echo "Biaya Denda : Rp.$biaya_denda\n";
         echo "Total Pembayaran : Rp.$harga + Rp.$biaya_denda = Rp.$total\n";
-        echo "Hon no go henkyaku arigatougozaimashita\n";
+        echo "Hon no go henkyaku arigathanks gozaimuch\n";
         break;
     case 1 :
         $biaya_denda = 100000;
