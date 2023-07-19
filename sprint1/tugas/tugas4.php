@@ -74,3 +74,5 @@ if ($menu == 1){
      echo "Balik Ke Menu (Y/N) : ";
      $balik = trim (fgets(STDIN));
 }while($balik == "Y");
+
+echo "Terima Kasih Sudah Berkunjung\n";
