@@ -1,0 +1,35 @@
+SPRINT 2 - SOAL EVALUASI 1
+
+1. Jelaskan perbedaan (!=) dan (!==) dalam operator perbandingan!
+   Beserta Contoh Prakteknya...
+
+2. Jelaskan perbedaan variable dengan constanta! Buatkan contohnya!
+
+3. Buatlah daftar teman satu divisi beserta nama,umur, dan ttlnya (valuenya) dalam bentuk Array Multidimensi / Array dalam array dengan keynya berupa nama-nama dari temen satu divisi!
+
+4. Operator Penugasan => Budi Punya Uang = 50000, dia ingin jajan senilai = 20000, lalu ibunya kasih uang = 5000 Berapakah Uang Saat Ini Yang Dipegang Oleh Budi?
+
+5. $a = 7 
+   $b = 3 // Pangkat
+   Buatlah Dalam Menggunakan Operator Aritmatika Dengan Jenis Pangkat ...
+   Dimana variable a pangkat variable b
+
+7. Buat dengan operator logika dan pengkondisian soal cerita dibawah ini:
+Ayu akan menerima seseorang sebagai suaminya apabila memenuhi kriteria berikut ini : akhlaknya baik dan salah satu dari entah good looking atau good rekening.
+Lalu Budi melamarnya, dia memiliki akhlak yang baik namun tidak good looking dan tidak good rekening.
+
+8. Buatlah SWITCH Untuk Menampilkan tingkatan berat suatu barang! 
+   Dengan expression / Ekspresi Didalamnya Ada Operator Perbandingan
+   Misal Kurang dari 10 kg maka outputnya ringan, antara 10-20 kg agak ringan, dst
+
+------
+
+*** KALIAN BOLEH LIHAT SUMBER DARI ***
+1. php.net
+2. w3schools
+
+*** WAKTU MENGERJAKAN SAMPAI ASHAR - SEBELUM MEMULAI EVALUASI PERTAMA BERDOA TERLEBIH DAHULU ***
+
+*** EVALUASI KALIAN PUSH KE GITHUB DENGAN FOLDER EVALUASI1 DI DALAM REPO KURIKULUMPROGRAMMERPOTEKINDO - KIRIM LINK GITHUB KE WA ANA
+
+*** SEMOGA ALLAH MUDAHKAN TEMAN - TEMAN DALAM MENGERJAKAN EVALUASI AAMIIN ***
