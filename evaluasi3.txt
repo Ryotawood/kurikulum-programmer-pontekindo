@@ -1,0 +1,42 @@
+BISMILLAH
+SPRINT 3 - SOAL EVALUASI 3
+
+1. Buat function dengan nama tigaTertinggi yang mana function tersebut akan menampilkan 3 data dengan nilai tertinggi saja dari data berikut
+[216, 769, 255, 512, 363, 121];
+
+2. Buat arrow function sebagai argumen dari Function menghitungLuasSegitiga!
+Dengan input statis : $tinggi = 20, $alas = 12
+
+3. Masukkan Argumen ini dalam suatu fungsi bernama ubahData "Vario","Supra","Revo","Vixion","Mio","Beat", gunakan variable length argument dan ubah data tadi menjadi output : "Beat | Mio | Revo | Supra | Vario | Vixion |"
+Dengan variable function sebagai argumen. Pakai fungsi bawaan PHP yang mengubah array jadi string
+
+4. Buat program mengelompokkan jumlah penduduk desa amigakure :
+- Apabila lebih dari 200 orang, mengembalikan keterangan 'padat penduduk'
+- Apabila 100-199 orang, mengembalikan keterangan 'cukup penduduk'
+- Apabila kurang dari 100 orang, mengembalikan keterangan 'sedikit penduduk'
+Dengan menggunakan closure dan input dinamis yang berada di luar function tsb.
+
+5. Sebutkan dan jelaskan variable scope yang ada di PHP, serta berikan contohnya!
+
+6. Ketik data berikut di file evaluasi : $nilaiSantri = [90, 85, 94, 77, 62, 88];
+Lalu, buat file baru yang berisi hanya function nilaiSantri dengan program menampilkan nilai yang terkecil dan terbesar saja
+*Gunakan function dari PHP Math dan require_once
+Jalankan functionnya di file evaluasi
+*Tambahan nilai bila bisa menampilkan rata-rata dari nilai tsb, menggunakan manipulasi array (Array Function)
+
+------
+
+*** KERJAKAN DENGAN JUJUR DAN MULAI DARI YANG TERMUDAH ***
+
+*** KERJAKAN DENGAN TELITI CEK ULANG SEBELUM DIKUMPULKAN ***
+
+*** KALIAN BOLEH LIHAT SUMBER DARI ***
+1. php.net
+2. w3schools
+3. stackoverflow 
+
+*** SEBELUM MEMULAI EVALUASI, PERTAMA BERDOA TERLEBIH DAHULU - WAKTU MENGERJAKAN SAMPAI JAM 10 ***
+
+*** EVALUASI KALIAN PUSH KE GITHUB DENGAN FOLDER EVALUASI3 DI DALAM REPO KURIKULUMPROGRAMMERPOTEKINDO - KIRIM LINK GITHUB KE GOOGLE CLASSROOM ***
+
+*** SEMOGA ALLAH MUDAHKAN TEMAN - TEMAN DALAM MENGERJAKAN EVALUASI AAMIIN ***

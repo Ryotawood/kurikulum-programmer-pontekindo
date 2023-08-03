@@ -1,0 +1,50 @@
+BISMILLAH
+SPRINT 2 - SOAL EVALUASI 2
+
+1. Buat inputan dinamis
+- Nama Siswa yang apabila ditampilkan maka hasilnya huruf kapital di setiap awal kata
+- Moto Hidup Siswa yang apabila kata-kata di dalamnya kurang dari 3 kata maka menampilkan 'Moto hidup terlalu pendek'
+- NIS (Nomor Induk Siswa) yang apabila inputannya bukan nomor dan melebihi 6 karakter akan menampilkan 'Data tidak valid'
+
+2. Kelompokkan input dinamis, 
+- apabila dua karakter terakhir adalah angka dibawah 20 maka menampilkan kalimat 'low HP'
+- apabila dua karakter terakhir adalah angka dibawah 40 maka menampilkan kalimat 'enough HP'
+- apabila dua karakter terakhir adalah angka di atas 70 maka menampilkan kalimat 'good HP'
+
+3. Ubah tipe data array berikut ke bentuk string : ['tidak','semua','yang','tidak berhasil','itu','kegagalan'] dengan pemisah berupa spasi antar katanya
+
+4. $array = [5,26,79,4,63,22.17,9];
+- urutkan array berikut dari yang terkecil
+- pisahkan antara data yang ganjil dan yang genap
+Urutan kecil ke besar: 
+ganjil :
+genap :
+
+*** data berikut untuk soal no 5-7
+$data = [
+   "id" => 582,
+   "nama" => "pisang",
+   "warna" => "kuning",
+   "stok" => "51
+];
+
+5. Tambah data rasa dengan value manis pada array di atas 
+6. Hapus data warna pada array di atas
+7. Ubah stok menjadi 32 dan tampilkan key dan valuenya dengan menggunakan foreach
+
+------
+
+*** KERJAKAN DENGAN JUJUR DAN MULAI DARI YANG TERMUDAH ***
+
+*** KERJAKAN DENGAN TELITI CEK ULANG SEBELUM DIKUMPULKAN ***
+
+*** KALIAN BOLEH LIHAT SUMBER DARI ***
+1. php.net
+2. w3schools
+3. stackoverflow 
+
+*** SEBELUM MEMULAI EVALUASI PERTAMA BERDOA TERLEBIH DAHULU - WAKTU MENGERJAKAN SAMPAI ASHAR ***
+
+*** EVALUASI KALIAN PUSH KE GITHUB DENGAN FOLDER EVALUASI2 DI DALAM REPO KURIKULUMPROGRAMMERPOTEKINDO - KIRIM LINK GITHUB KE GOOGLE CLASSROOM ***
+
+*** SEMOGA ALLAH MUDAHKAN TEMAN - TEMAN DALAM MENGERJAKAN EVALUASI AAMIIN ***

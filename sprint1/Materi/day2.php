@@ -78,42 +78,68 @@
 //echo $num1 = $num2;
 
 
-//operator penugasan, 
-// ditambah -> +=
-$angka1 = 2;
-$angkas2 = 4;
+// //operator penugasan, 
+// // ditambah -> +=
+// $angka1 = 2;
+// $angkas2 = 4;
 
-//$angka1 += $angkas2;
-// $angka1 = $angka1 + 17 ;
+// //$angka1 += $angkas2;
+// // $angka1 = $angka1 + 17 ;
+// // echo $angka1;
+
+// //dikurang -> -=
+// $angka1 -= $angkas2;
+// //dikali -> *=
+// $angka1 *= $angkas2;
+// //dibagi -> /=
+// $angka1 /= $angkas2;
+// //pangkat -> **=
+// $angka1 **= $angkas2;
+// //moudulus -> %=
+// $angka1 %= $angkas2;
 // echo $angka1;
 
-//dikurang -> -=
-$angka1 -= $angkas2;
-//dikali -> *=
-$angka1 *= $angkas2;
-//dibagi -> /=
-$angka1 /= $angkas2;
-//pangkat -> **=
-$angka1 **= $angkas2;
-//moudulus -> %=
-$angka1 %= $angkas2;
-echo $angka1;
+// // ambil input lewat cli/termial
+// // trim adalh fungsi bawaan php untuk menghapus spasi pada awal dan akhir data
+// // $eg = " lue ";
+// // echo trim ($eg);
+// //fgets adlah fungsi uuntuk mengambil inputan dari cli/terminal
+// // STDIN adalh standar input -> tempat untuk menyimpan data sebelum ditampilkan
 
-// ambil input lewat cli/termial
-// trim adalh fungsi bawaan php untuk menghapus spasi pada awal dan akhir data
-// $eg = " lue ";
-// echo trim ($eg);
-//fgets adlah fungsi uuntuk mengambil inputan dari cli/terminal
-// STDIN adalh standar input -> tempat untuk menyimpan data sebelum ditampilkan
-
-echo "-----------Menghitung luas persegi ----------- :";
-echo "Ketikkan sisi persegi :";
-$sisi = trim (fgets(STDIN));
-$luas = $sisi * $sisi;
-echo "Sisi : $sisi" . PHP_EOL;
-echo "Luas : sisi * sisi\nLuas : $sisi * $sisi =$luas" . PHP_EOL;
+// echo "-----------Menghitung luas persegi ----------- :";
+// echo "Ketikkan sisi persegi :";
+// $sisi = trim (fgets(STDIN));
+// $luas = $sisi * $sisi;
+// echo "Sisi : $sisi" . PHP_EOL;
+// echo "Luas : sisi * sisi\nLuas : $sisi * $sisi =$luas" . PHP_EOL;
 
 
 
-echo PHP_EOL;
+// echo PHP_EOL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$arraynum = [234,5234,235];
+$arrayasso = ["kacang"=>"kue"];
+$arraymulti= ["roti"=>
+                "hijau"=>["green"=>["macha","kouty"],"red"=>"apple"]];
+        var_dump($arraymulti);
+
+
+
+
+
+
 
