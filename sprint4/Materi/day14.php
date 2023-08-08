@@ -13,7 +13,7 @@
 // }
 // tampil();
 
-// local scope : variable yang berada didalam suatu function
+// // local scope : variable yang berada didalam suatu function
 
 // $g = "global";
 // function taampil(){
@@ -35,54 +35,54 @@
 
 // SOAL 2
 
-// function menghitungLuasSegitiga($arrowFunc){
-//     echo "Luas : " . $arrowFunc(12,20);
-// }
-// menghitungLuasSegitiga(fn($alas,$tinggi) => 1/2 *$alas *$tinggi);
+function menghitungLuasSegitiga($arrowFunc){
+    echo "Luas : " . $arrowFunc(12,20) . PHP_EOL;
+}
+menghitungLuasSegitiga(fn($alas,$tinggi) => 1/2 *$alas *$tinggi);
 
 // SOAL 3
 
-// function ubahData($sort,$filter,...$data){
-//     $sort($data);
-//     echo $filter (" | ",($data));
-// }
-// $imp = "implode";
-// ubahData("sort",$imp,"Vario","Supre","Revo","Vixion","Mio","Beat");
+function ubahData($sort,$filter,...$data){
+    $sort($data);
+    echo $filter (" | ",($data));
+}
+$imp = "implode";
+ubahData("sort",$imp,"Vario","Supre","Revo","Vixion","Mio","Beat") . PHP_EOL;
 
 // SOAL 1
 
-// $data = [216,769,255,512,363,121];
+$data = [216,769,255,512,363,121];
 
-// function tigaTertinggi(){
-//     $data = [216,769,255,512,363,121];
-//     rsort($data);
-//     $no =1;
-//     foreach ($data as $key => $value) {
-//         if($key < 3){
-//             echo $no . " : ". $value .PHP_EOL;
-//         }
-//         $no++;
-//     }
-// }
-// tigaTertinggi();
+function tigaTertinggi(){
+    $data = [216,769,255,512,363,121];
+    rsort($data);
+    $no =1;
+    foreach ($data as $key => $value) {
+        if($key < 3){
+            echo PHP_EOL.$no . " : ". $value .PHP_EOL;
+        }
+        $no++;
+    }
+}
+tigaTertinggi();
 
 // SOAL 4
-// echo "Jumlah Penduduk Amegakure : ";
-// $penduduk = trim(fgets(STDIN));
+echo "Jumlah Penduduk Amegakure : ";
+$penduduk = trim(fgets(STDIN));
 
-// $amegakure=function() use ($penduduk){
-//     // global $penduduk;
-//     if($penduduk >= 200){
-//         return "Padat Penduduk";
-//     }else if ($penduduk >=100){
-//         return "Cukup penduduk";
-//     }else{
-//         return "Sedikit penduduk";
-//     }
-// };
-// // echo "Jumlah Pdenduduk Desa Anegakure : $penduduk\n";
-// echo "Keterangan : ";
-// echo $amegakure().PHP_EOL;
+$amegakure=function() use ($penduduk){
+    // global $penduduk;
+    if($penduduk >= 200){
+        return "Padat Penduduk";
+    }else if ($penduduk >=100){
+        return "Cukup penduduk";
+    }else{
+        return "Sedikit penduduk";
+    }
+};
+// echo "Jumlah Pdenduduk Desa Anegakure : $penduduk\n";
+echo "Keterangan : ";
+echo $amegakure().PHP_EOL;
 
 // SOAL 6
 
