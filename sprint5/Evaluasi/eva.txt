@@ -1,0 +1,33 @@
+// SOAL 1
+
+// SOAL 2
+Apa itu table relationship ?
+So... table relationship adalah table yang dimana mereka saling berelasi seperti namanya relationship
+yang dia arti bhs indo yaitu relasi atau hubungan, jadi semua table yang berhubungan atau berelasi itu adalah table relationship
+
+// SOAL 3
+Jelaskan macam-macam JOIN
+jadi join itu ada 4 macam
+-inner join
+-right join
+-left join
+-cross join
+apa itu inner join ??
+inner join adalah suatu join yang akan menampilkan kesamaan antar table yang berelasi
+apa itu right join ??
+right join adalah suatu join yang akan menampilkan kesamaan antar table di tambah akan memunculkan
+table yang berada di sebelah kanan, table ny sama atau tidak sama dia akan tetap muncul
+apa itu left join ??
+left join adalah suatu join yang akan menampilkan kesamaan antar table di tambah akan memunculkan
+table yang berada di sebelah kiri, table ny sama atau tidak sama dia akan tetap muncul
+apa itu cross join ??
+karna jarang dipake yasudah lah, kurang perhatian
+
+// SOAL 4
+relasi tu yang one to one itu ???, kalo itu berarti ada 3
+one to one
+one to many
+many to many
+yang ini kan ya ??
+
+// SOAL 5
