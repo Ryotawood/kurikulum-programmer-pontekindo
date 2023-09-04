@@ -1,0 +1,25 @@
+* {
+    box-sizing:border-box;
+    background-color: black;
+  }
+  h1, a {
+    color: aliceblue;
+  }
+  .klik {
+    color: red;
+  }
+.judul {
+    font-size : 17px ;
+    font-family: 'Courier New', Courier, monospace;
+}
+.isi {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table {
+    align-items: center;
+    justify-content: center;
+    border: 1;
+    border-width: 1;
+    color: aliceblue;
+}

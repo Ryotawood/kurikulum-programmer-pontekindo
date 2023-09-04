@@ -1,0 +1,56 @@
+NORMALISASI DATABASE
+apa itu
+Normalisasi database adlah proses pengorganisasian dan penataan database untuk mengurangi redundansi data,
+anda dapat menghindari kesalahan inpout data, penghapusan tidak disengaja, dan anda juga memudahkan proses pembaruan data
+
+manfaat
+mencegah masalah dan membuat pemeliharaan database lebih mudah ini akan menghindari pemborosan sumber daya dan uang
+menyebabkan berkurangny ruang penyimpanan
+normal form itu form yang beraturan
+UNF
+1NF
+harus nilai atomik, nilai yang diperkecil atau dipotong menjadi bagian kecil, mudahny tidak ada value dobel dalam satu colom
+2NF
+memenuhi syarat 1NF
+setiap atribut harus langsung berelasi dengan PK(primary key)
+3NF
+memenuhi syarat 2NF
+tidak boleh ada transitive dependency dalam sebuah kolom
+BCNF
+memenuhi 3NF
+4NF
+memenuhi cara sebelumnya
+5NF
+memenuhi cara sebelumnya
+
+DFD 
+Data Flow Diagram
+DVD lvl 0
+vivi memsan seblak melalui aplikasi online->pesanan diterima oleh sistem->proses pemesanan ke warung seblak
+DVD lvl 1
+Lebih ribet dan banyak step ny
+Definisi
+cara menampilkan secara visual bagimana aliran data bergerak dalam suatu sistem, bagaimana sebuah data melalui berbagai tahap
+dan berintereraksi antar komponen
+TUjuan
+memahami bagaimana alur data itu berjalan
+
+UML
+Unified Modeling Language
+diagram UML dibuat dari beberapa elemen dasar yaitu:
+class diagram
+(klasifikasi)
+object diagram (objektif)
+component diagram (kombinatorik)
+activity diagram (aktivitas)
+sequence diagram (sekuensial)
+Diagram class
+Class diagram digunakan untuk menampilkan struktur model data. Class diagram terdiri atas :
+- Komponent diagram
+- Aturan koneksi
+- Tipe data
+- Relasi antar tabel
+- Atribut
+
+UML
+diagram use case

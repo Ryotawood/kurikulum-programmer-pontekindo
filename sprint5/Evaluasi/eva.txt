@@ -31,3 +31,7 @@ many to many
 yang ini kan ya ??
 
 // SOAL 5
+
+
+cara join
+SELECT Nama.TB AS 'Nama.AS' FROM Nama.DB Join Nama.DB ON (DB.id_column = column.id) Join Nama.DB ON (DB.id_column = column.id);

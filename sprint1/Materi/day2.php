@@ -131,11 +131,11 @@
 
 
 
-$arraynum = [234,5234,235];
-$arrayasso = ["kacang"=>"kue"];
-$arraymulti= ["roti"=>
-                "hijau"=>["green"=>["macha","kouty"],"red"=>"apple"]];
-        var_dump($arraymulti);
+// $arraynum = [234,5234,235];
+// $arrayasso = ["kacang"=>"kue"];
+// $arraymulti= ["roti"=>
+//                 "hijau"=>["green"=>["macha","kouty"],"red"=>"apple"]];
+//         var_dump($arraymulti);
 
 
 
