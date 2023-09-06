@@ -56,5 +56,3 @@ class Animal {
 2. Encapsulation
 3. Abstraction
 4. Polymorphism
-
-visi

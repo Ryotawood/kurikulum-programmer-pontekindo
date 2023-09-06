@@ -52,6 +52,7 @@ class Animal {
         cat akan mempunyai atribut name dan color juga
 
 2. Encapsulation
+apa itu Encapsulation
 3. Abstraction
 4. Polymorphism
 
