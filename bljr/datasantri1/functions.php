@@ -67,8 +67,10 @@ return mysqli_affected_rows($conn);
 }
 
 
-
-
+function cari($keyword){
+    $query = "SELECT * FROM santri WHERE nama LIKE '%$keyword%' OR jurusan LIKE '%$keyword%'";
+    return query($query);
+}
 
 
 

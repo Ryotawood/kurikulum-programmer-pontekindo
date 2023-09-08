@@ -1,0 +1,20 @@
+UPLOAD
+FILE HANDLING
+
+mengenai tipe dari input yaitu file, sebelumnya kita nyimpen gambar pake text yang mana kalo pake text
+kita gak bisa mengupload gambar dan kalo pake text itu kita harus ada gambarny dari text, jadi kita tulis sendiri tuh filenya
+
+atribut untuk form yang disebut enctype
+supervariable global untuk menyimpan file yang akan diupload
+$_FILES
+terus ada 
+move_uploaded_file fungsi inilah untuk mengupload file yang kita punya di komputer yang kita miliki ke server 
+
+dalam $_FILES akan ada array multi dimensi
+yaitu 
+Array gambar yang didalamnya terdapat array lagi 
+- name
+- type
+- tmp_name
+- error
+- size

@@ -57,6 +57,31 @@ apa itu Encapsulation
 4. Polymorphism
 
 Encapsulation
-Encapsulation adalah penggabungan antara data dan fungsi yang terkandung didalam suatu objek
-dengan cara mereka tidak boleh dilakukan akses langsung kepada data atau fungsinya mel
-cara membungkusnya dengan method/function
+kalian punya jantung di dalam kalian. tapi kalian gak punya akses untuk pegang pegang. kecuali kalo kalian belah tuh dada, walau kalian gak bisa pegang tapi kalian tetap hidup begitu
+
+Abstraction
+kalian punya hati, iyaa hati,,, hati itu sudah melihat seseorang yang jauh disana. dia tersembunyi tapi kalian bisa merasakan kehadirannya,, pdhl dia jauh sekali disana begitu ehh gk tau deng
+
+static keyword
+cara ngambil nya langsung eksekusi si class 
+
+erorr handling
+Perceptual eror
+ yaitu adanya kesalahan yang disebabkan oleh ketidak jelasan keterangan dari petunjuk penggunaaan 
+Cognitive erorr
+yaitu kesalahan yang diakibatkan oleh kemampuan memecahkan oleh user
+motor error yaitu adanya kesaahan ytang disebabkan oleh ketidak sinkronan antara mata, tangan dan kemampuan\
+
+kesalahan user
+Mistake yaitu kesalan yang terjadi ketika user berpikir bahwa itu bukan salah dia
+slip
+yaitu kesalahan diluar keinginan user
+
+pencegahan
+error prevention
+yaitu untuk mencegah kesalahan user sehingga skala kesalahan user dapat diminimalisir agar tidak terjadi error yang lebih fatal disuatu sistem
+error recovery
+yaitu untuk meperbaiki kesalahan terhadap suatu kesalahan yang sudah terlanjur dilakukan oleh user
+
+s
+
